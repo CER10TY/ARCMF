@@ -130,7 +130,7 @@ class CfgARCMF
 		AI GEAR CONFIGURATION
 		Description: This is the section where you define loadouts for the AI teams.
 		Note:
-			1. AI loadouts are randomized.
+			1. AI loadouts are randomized based on their probability value.
 			2. This is an array of classnames.
 			3. ARC_AI disables the use of grenades and grenade launchers for AI units
 -----------------------------------------------------------------------------------------------------------------
@@ -139,7 +139,8 @@ class CfgARCMF
 	{
 		class gear
 		{
-			class blufor {
+			class blufor
+			{
 				enabled = false;
 				removeNightVision = true;
 				removeMedicalItems = true;
@@ -155,7 +156,44 @@ class CfgARCMF
 				launchers[] = {};
 				attachments[] = {};
 			};
-			class opfor {
+			class opfor
+			{
+				enabled = true;
+				removeNightVision = true;
+				removeMedicalItems = true;
+				prioritizeTracerMags = true;
+				uniforms[] = {
+					{"rhs_uniform_msv_emr", 1}
+				};
+				vests[] = {
+					{"rhs_6b23_digi_6sh92", 1}
+				};
+				headgear[] = {
+					{"", 1}
+				};
+				goggles[] = {
+					{"rhs_balaclava1_olive", 0.33},
+					{"rhs_balaclava", 0.33},
+					{"rhs_scarf", 0.33}
+				};
+				backpacks[] = {
+					{"", 1}
+				};
+				faces[] = {};
+				voices[] = {};
+				rifles[] = {
+					{"rhs_weap_pkp", 0.25},
+					{"rhs_weap_ak74m_2mag", 0.75}
+				};
+				launchers[] = {
+					{"launch_RPG32_F", 0.25}
+				};
+				attachments[] = {
+					{"rhs_acc_2dpZenit", 1}
+				};
+			};
+			class indfor
+			{
 				enabled = false;
 				removeNightVision = true;
 				removeMedicalItems = true;
@@ -171,23 +209,8 @@ class CfgARCMF
 				launchers[] = {};
 				attachments[] = {};
 			};
-			class indfor {
-				enabled = false;
-				removeNightVision = true;
-				removeMedicalItems = true;
-				prioritizeTracerMags = true;
-				uniforms[] = {};
-				vests[] = {};
-				headgear[] = {};
-				goggles[] = {};
-				backpacks[] = {};
-				faces[] = {};
-				voices[] = {};
-				rifles[] = {};
-				launchers[] = {};
-				attachments[] = {};
-			};
-			class civilian {
+			class civilian
+			{
 				enabled = false;
 				removeNightVision = true;
 				removeMedicalItems = true;

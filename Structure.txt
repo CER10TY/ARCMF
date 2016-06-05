@@ -1,0 +1,9 @@
+All missions will be based on Jägerbataillon 1 of the German Bundeswehr. This file details the structure of Jägerbataillon 1, which is useful both for on-map purposes but also when switching between different Companies.
+
+X Panzerbrigade 21 (Brigade HQ)
+II Jägerbataillon 1 (Battalion HQ)
+I 1./ Jägerbataillon 1 (1st Company, Support)
+I 2./ Jägerbataillon 1 (2nd Company, Light Infantry)
+I 3./ Jägerbataillon 1 (3rd Company, Light Infantry)
+I 4./ Jägerbataillon 1 (4th Company, Light Infantry)
+I 5./ Jägerbataillon 1 (5th Company, Motorized Infantry)

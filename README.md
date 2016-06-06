@@ -7,4 +7,5 @@
 # ARCOMM Mission Framework
 Our mission framework is an adaptation of the [F3 framework](https://github.com/ferstaberinde/F3) created by [Ferstaberinde](https://github.com/ferstaberinde). It is designed to be robust, easily customisable and open for expansion. For some documentation on how to add custom functions and the basics of SQF scripting, head over to the [documentation page here](https://github.com/ARCOMM/ARC_MF.VR/wiki/Documentation). For tutorials on how to create your first mission from start to finish head over to the [tutorials page here](https://github.com/ARCOMM/ARC_MF.VR/wiki/Tutorials).
 
-This is a custom fork that uses Bundeswehr Gear (G36KA1 etc) instead of the default US Army Gear.
+## Bundeswehr Mission Framework
+This fork adds an ORBAT structure of relevant Bundeswehr Units (for flavor) as well as relevant gear changes (for actual gameplay changes). It is kept up to date with the proper ARCMF and does not deviate from the original besides gear and ORBAT.

@@ -7,8 +7,8 @@ class Header {
     sandbox = 0;
 };
 
-onLoadName = "ARCMF";
-onLoadMission = "ARCOMM Mission Framework.";
+onLoadName = "ARCMF/BMF";
+onLoadMission = "ARCMF with Bundeswehr Mission Framework.";
 author = "Kingsley, tryteyker, Nelson";
 overviewPicture = "splash.paa";
 loadScreen = "splash.paa";

@@ -1,6 +1,6 @@
 private _side = west;
 
-player createDiaryRecord ["diary", ["Credits", (format ["%1<br/>Made with ARCMF (https://github.com/ARCOMM/ARCMF)", getText (missionConfigFile >> "author")])]];
+player createDiaryRecord ["diary", ["Credits", (format ["%1<br/>Made with ARCMF/BMF (https://github.com/CER10TY/ARCMF)", getText (missionConfigFile >> "author")])]];
 
 _admin = [_side, "administration"] call ARC_fnc_buildBriefingFromConfig;
 if (_admin != "") then {

@@ -184,12 +184,14 @@ class CfgORBAT
 	{
 		side = "West";
 		texture = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\kdoh_ca");
+		insignia = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\kdoh_ca");
 		color[] = {1,1,1,1};
+		colorInsignia[] = {1,1,1,1};
 		commander = "Vollmer";
 		commanderRank = "General";
 		text = "Kommando Heer";
 		textShort = "Kdo H";
-		description = "The Kommando Heer is the high command of the Germany Army. The counterparts for the Navy and Air Force are the Marinekommando and Zentrum Luftoperationen respectively. The Army Command has integrated all smaller commands during a wider restructure in 2011, effectively making it the only field army in the Armed Forces (there are no army groups).";
+		description = "The Kommando Heer is the high command of the Germany Army. The counterparts for the Navy and Air Force are the Marinekommando and Kommando Luftwaffe respectively. The Army Command has integrated all smaller commands during a wider restructure in 2011, effectively making it the only field army in the Armed Forces (there are no army groups).";
 		class 1PzDiv 
 		{
 		  side = "WEST";
@@ -404,6 +406,43 @@ class CfgORBAT
 				text = "Kommando Spezialkräfte";
 				textShort = "KSK";
 				description = "The Kommando Spezialkräfte are the covert operations forces of the Bundeswehr, and as such are the German equivalent of the US Navy SEALs. Their work is, for the most part, classified. The brigade is known to have been involved in Operation Enduring Freedom since 2001. They were involved in the Battle of Tora Bora and Operation Anaconda, among others. Their current commander, Brigadegeneral Dag Baehr, is the first commander in the history of the KSK to also have been a commando before taking over as commander.";
+			};
+		};
+	};
+	class KdoLw
+	{
+		side = "West";
+		size = "Army";
+		texture = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\kdolw_ca");
+		insignia = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\kdolw_ca");
+		color[] = {1,1,1,1};
+		colorInsignia[] = {1,1,1,1};
+		commander = "Müllner";
+		commanderRank = "General";
+		text = "Kommando Luftwaffe";
+		textShort = "Kdo Lw";
+		description = "The Kommando Luftwaffe is the high command of Germany's Air Force. It commands about 30.000 personnel, both civilian and military. Directly under Kdo Lw are two Corps, Zentrum Luftoperationen (Logistics) and Luftwaffentruppenkommando (Combat Branch).";
+		class LwTrKdo
+		{
+			side = "West";
+			size = "Corps";
+			type = "HQ";
+			commander = "Schütz";
+			commanderRank = "General";
+			text = "Luftwaffentruppenkommando";
+			textShort = "LwTrKdo";
+			description = "The Luftwaffentruppenkommando is directly under the Kdo Lw and commands about 25.000 military and civilian personnel. Its main responsibility is providing, training and organizing the combat aviation forces (including those flying the Eurofighter Typhoon).";
+			class TaktLwG73
+			{
+				side = "West";
+				size = "Regiment";
+				type = "CombatAviation";
+				commander = "Teicke";
+				commanderRank = "Major";
+				text = "Taktisches Luftwaffengeschwader 73 'Steinhoff'";
+				textShort = "TaktLwG73 'S'";
+				description = "The Tactical Aviation Squadron 73 is one of three squadrons responsible for combat aviation using the Eurofighter Typhoon. It can provide close air support as well as execute long-range bombing missions.";
+				assets[] = {{"RHSUSF_F22",5}};
 			};
 		};
 	};

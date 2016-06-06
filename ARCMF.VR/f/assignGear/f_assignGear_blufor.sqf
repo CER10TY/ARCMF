@@ -33,7 +33,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36A1AG36";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -69,7 +69,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36A1AG36";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -101,7 +101,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -169,7 +169,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36A1AG36";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -201,7 +201,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 
 comment "Add items";
@@ -263,7 +263,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -294,7 +294,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "tf47_at4_heat";
 
@@ -329,7 +329,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36A1AG36";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -392,7 +392,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -427,7 +427,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36A1AG36";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -461,7 +461,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "tf47_smaw";
 this addWeapon "rhsusf_weap_m9";
 
@@ -493,7 +493,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -584,7 +584,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 this addWeapon "Binocular";
 
@@ -615,7 +615,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 
 comment "Add items";
@@ -645,7 +645,7 @@ this addHeadgear "MNP_Helmet_Germany";
 
 comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
-this addPrimaryWeaponItem "HLC_Optic_G36dualoptic35x";
+this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
 
 comment "Add items";

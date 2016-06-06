@@ -183,9 +183,7 @@ class CfgORBAT
 	class KdoH
 	{
 		side = "West";
-		size = "Army";
-		type = "HQ";
-		texture = "flag_Germany";
+		texture = __EVAL((__FILE__ select [0, count __FILE__ - 15])+"img\kdoh_ca");
 		color[] = {1,1,1,1};
 		commander = "Vollmer";
 		commanderRank = "General";
@@ -206,7 +204,7 @@ class CfgORBAT
 		  {
 			side = "West";
 			size = "Brigade";
-			type = "HQ";
+			type = "Armored";
 			commander = "Rohrschneider";
 			commanderRank = "Colonel";
 			text = "Panzerbrigade 21 'Lipperland'";
@@ -216,7 +214,7 @@ class CfgORBAT
 			{
 				side = "West";
 				size = "Battalion";
-				type = "HQ";
+				type = "MotorizedInfantry";
 				commander = "Krämer";
 				commanderRank = "Major";
 				text = "Jägerbataillon 1";
@@ -226,7 +224,7 @@ class CfgORBAT
 				{
 					side = "West";
 					size = "Company";
-					type = "Support";
+					type = "HQ";
 					commander = "Dietrich";
 					commanderRank = "Lieutenant";
 					text = "Erste Kompanie, Jägerbataillon 1";
@@ -283,7 +281,7 @@ class CfgORBAT
 			{
 				side = "West";
 				size = "Battalion";
-				type = "HQ";
+				type = "MechanizedInfantry";
 				commander = "Stöver";
 				commanderRank = "Major";
 				text = "Panzergrenadierbataillon 212";
@@ -293,7 +291,7 @@ class CfgORBAT
 				{
 					side = "West";
 					size = "Company";
-					type = "Support";
+					type = "HQ";
 					commander = "Koch";
 					commandeRank = "Lieutenant";
 					text = "Erste Kompanie, Panzergrenadierbataillon 212";
@@ -354,7 +352,7 @@ class CfgORBAT
 		{
 			side = "West";
 			size = "Division";
-			type = "HQ";
+			type = "Recon";
 			commander = "Marlow";
 			commanderRank = "General";
 			text = "Division Schnelle Kräfte";
@@ -364,7 +362,7 @@ class CfgORBAT
 			{
 				side = "West";
 				size = "Regiment";
-				type = "Helicopter";
+				type = "AviationSupport";
 				commander = "Rüther";
 				commanderRank = "Colonel";
 				text = "Transporthubschrauberregiment 10";
@@ -376,7 +374,7 @@ class CfgORBAT
 			{
 				side = "West";
 				size = "Regiment";
-				type = "Helicopter";
+				type = "AviationSupport";
 				commander = "Göhringer";
 				commanderRank = "Colonel";
 				text = "Transporthubschrauberregiment 30";
@@ -388,7 +386,7 @@ class CfgORBAT
 			{
 				side = "West";
 				size = "Regiment";
-				type = "Helicopter";
+				type = "CombatAviation";
 				commander = "Bauersachs";
 				commanderRank = "Colonel";
 				text = "Kampfhubschrauberregiment 36";

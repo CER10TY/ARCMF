@@ -173,170 +173,240 @@ class CfgFunctions {
     };
 };
 
-class CfgORBAT
-{
-class 1PzDiv 
-{
-  side = "WEST";
-  size = "Division";
-  type = "HQ";
-  commander = "Langenegger";
-  commanderRank = "General";
-  text = "1. Panzerdivision 'Oldenburg'";
-  textShort = "1. PzDiv";
-  description = "The 1st Tank Division is an armoured division of the Bundeswehr. The 1st Tank Division forms the backbone of German Armed Forces so-called 'Intervention Forces', which are primarily assigned to It has an optimal strength of 35.000 soldiers. The 1st Tank Division is Germany's last full-scale conventional division.";
-  class PzBrig21
-  {
-	side = "West";
-	size = "Brigade";
-	type = "HQ";
-	commander = "Rohrschneider";
-	commanderRank = "Colonel";
-	text = "Panzerbrigade 21 'Lipperland'";
-	textShort = "PzBrig 21";
-	description = "The 21st Armoured Brigade is a brigade in the Bundeswehr. It commands a Light Infantry Battalion as well as one Tank and one Mechanized Battalion. There are a total of 44 Leopard 2A6 MBTs as well as 44 Puma IFVs under the command of the 21st Armoured Brigade.";
-	assets[] = {{"rhsusf_m1a1aim_tuski_d",5},{"RHS_M2A3_BUSKIII",5}};
-	class JgBtl1
-	{
-		side = "West";
-		size = "Battalion";
-		type = "HQ";
-		commander = "Krämer";
-		commanderRank = "Major";
-		text = "Jägerbataillon 1";
-		textShort = "JgBtl 1";
-		description = "The Light Infantry Battalion 1 is a battalion under the direct command of Armoured Brigade 21. It is specialized in fighting on difficult terrain, including Urban Warfare.";
-		class 1JgKmp 
-		{
-			side = "West";
-			size = "Company";
-			type = "Support";
-			commander = "Dietrich";
-			commanderRank = "Lieutenant";
-			text = "Erste Kompanie, Jägerbataillon 1";
-			textShort = "1./ JgBtl 1";
-			description = "First Company of Jägerbataillon 1 is the support company of JgBtl 1, and is as such responsible for all logistics of the battalion.";
-		};
-		class 2JgKmp 
-		{
-			side = "West";
-			size = "Company";
-			type = "Infantry";
-			commander = "Günther";
-			commanderRank = "Lieutenant";
-			text = "Zweite Kompanie, Jägerbataillon 1";
-			textShort = "2./ JgBtl 1";
-			description = "Second Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
-		};
-		class 3JgKmp 
-		{
-			side = "West";
-			size = "Company";
-			type = "Infantry";
-			commander = "Müller";
-			commanderRank = "Lieutenant";
-			text = "Dritte Kompanie, Jägerbataillon 1";
-			textShort = "3./ JgBtl 1";
-			description = "Third Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
-		};
-		class 4JgKmp 
-		{
-			side = "West";
-			size = "Company";
-			type = "Infantry";
-			commander = "Wagner";
-			commanderRank = "Lieutenant";
-			text = "Vierte Kompanie, Jägerbataillon 1";
-			textShort = "4./ JgBtl 1";
-			description = "Fourth Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
-		};
-		class 5JgKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "MotorizedInfantry";
-			commander = "Neumann";
-			commanderRank = "Captain";
-			text = "Fünfte Kompanie, Jägerbataillon 1";
-			textShort = "5./ JgBtl 1";
-			description = "Fifth Company of Jägerbataillon 1 is the only company to have heavy infantry and motorized capabilities on a permanent basis.";
-			assets[] = {{"RHS_M2A3_BUSKIII",2}};
-		};
-	};
-	class PzGrenBtl212
-	{
-		side = "West";
-		size = "Battalion";
-		type = "HQ";
-		commander = "Stöver";
-		commanderRank = "Major";
-		text = "Panzergrenadierbataillon 212";
-		textShort = "PzGrenBtl 212";
-		description = "The Panzergrenadierbataillon 212 is a battalion specializing in motorized and mechanized infantry combat. PzGrenBtl 212 has primarily been deployed to Afghanistan. The battalion was the last unit of the Bundeswehr to sustain a combat casualty, as the IFV that Oberstabsgefreiter Alexej Kobelew was travelling in was hit by a 200kg IED, killing him instantly.";
-		class 1PzGrenKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "Support";
-			commander = "Koch";
-			commandeRank = "Lieutenant";
-			text = "Erste Kompanie, Panzergrenadierbataillon 212";
-			textShort = "1./ PzGrenBtl 212";
-			description = "First Company of PzGrenBtl 212 consists of support staff, and is responsible for the logistics of the battalion.";
-		};
-		class 2PzGrenKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "MechanizedInfantry";
-			commander = "Lange";
-			commandeRank = "Lieutenant";
-			text = "Zweite Kompanie, Panzergrenadierbataillon 212";
-			textShort = "2./ PzGrenBtl 212";
-			description = "Second Company is, together with third and fourth company, the backbone of the battalion. They supply the main force of IFVs, having 14 IFV Pumas at their disposal at all times.";
-			assets[] = {{"RHS_M2A3_BUSKIII",14}};
-		};
-		class 3PzGrenKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "MechanizedInfantry";
-			commander = "Schubert";
-			commandeRank = "Lieutenant";
-			text = "Dritte Kompanie, Panzergrenadierbataillon 212";
-			textShort = "3./ PzGrenBtl 212";
-			description = "Third company is, together with second and fourth company, the backbone of the battalion. They have a varying amount of IFVs at their disposal, oftentimes around five IFV Marders.";
-			assets[] = {{"RHS_M2A3",5}};
-		};
-		class 4PzGrenKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "MechanizedInfantry";
-			commander = "Baumann";
-			commandeRank = "Lieutenant";
-			text = "Vierte Kompanie, Panzergrenadierbataillon 212";
-			textShort = "4./ PzGrenBtl 212";
-			description = "Fourth company is, together with second and third company, the backbone of the battalion. They have a varying amount of IFVs at their disposal, oftentimes around five IFV Marders.";
-			assets[] = {{"RHS_M2A3",5}};
-		};
-		class 5PzGrenKmp
-		{
-			side = "West";
-			size = "Company";
-			type = "Service";
-			commander = "Fischer";
-			commanderRank = "Lieutenant";
-			text = "Fünfte Kompanie, Panzergrenadierbataillon 212";
-			textShort = "5./ PzGrenBtl 212";
-			description = "Fifth company is, together with first company, a support company. Whilst first company primarily handles logistics, fifth company also handles the training of individual platoons within the battalion.";
-		};
-	};
-  };
-};
-};
-
 #include "config.hpp"
 #include "f\arc\xeh.hpp"
 #include "f\arc\sandbox.hpp"
 #include "f\ui\include.hpp"
+
+class CfgORBAT
+{
+	class KdoH
+	{
+		side = "West";
+		size = "Army";
+		type = "HQ";
+		texture = "flag_Germany";
+		color[] = {1,1,1,1};
+		commander = "Vollmer";
+		commanderRank = "General";
+		text = "Kommando Heer";
+		textShort = "Kdo H";
+		description = "The Kommando Heer is the high command of the Germany Army. The counterparts for the Navy and Air Force are the Marinekommando and Zentrum Luftoperationen respectively. The Army Command has integrated all smaller commands during a wider restructure in 2011, effectively making it the only field army in the Armed Forces (there are no army groups).";
+		class 1PzDiv 
+		{
+		  side = "WEST";
+		  size = "Division";
+		  type = "HQ";
+		  commander = "Langenegger";
+		  commanderRank = "General";
+		  text = "1. Panzerdivision 'Oldenburg'";
+		  textShort = "1. PzDiv";
+		  description = "The 1st Tank Division forms the backbone of the Bundeswehrs so-called 'Intervention Forces', which are primarily assigned to EU Battlegroups (Kosovo, Mali), but also to NATO QRFs, like the one in Eastern Europe. It has an optimal strength of 35.000 soldiers. The 1st Tank Division is Germany's last full-scale conventional division.";
+		  class PzBrig21
+		  {
+			side = "West";
+			size = "Brigade";
+			type = "HQ";
+			commander = "Rohrschneider";
+			commanderRank = "Colonel";
+			text = "Panzerbrigade 21 'Lipperland'";
+			textShort = "PzBrig 21";
+			description = "The 21st Armoured Brigade is part of the 1. Panzerdivision 'Oldenburg'. It commands a Light Infantry Battalion as well as one Tank and one Mechanized Battalion. There are a total of 44 Leopard 2A6 MBTs as well as 44 Puma IFVs under the command of the 21st Armoured Brigade.";
+			class JgBtl1
+			{
+				side = "West";
+				size = "Battalion";
+				type = "HQ";
+				commander = "Krämer";
+				commanderRank = "Major";
+				text = "Jägerbataillon 1";
+				textShort = "JgBtl 1";
+				description = "The Light Infantry Battalion 1 is a battalion under the direct command of Armoured Brigade 21. It is specialized in fighting on difficult terrain, including Urban Warfare.";
+				class 1JgKmp 
+				{
+					side = "West";
+					size = "Company";
+					type = "Support";
+					commander = "Dietrich";
+					commanderRank = "Lieutenant";
+					text = "Erste Kompanie, Jägerbataillon 1";
+					textShort = "1./ JgBtl 1";
+					description = "First Company of Jägerbataillon 1 is the support company of JgBtl 1, and is as such responsible for all logistics of the battalion.";
+				};
+				class 2JgKmp 
+				{
+					side = "West";
+					size = "Company";
+					type = "Infantry";
+					commander = "Günther";
+					commanderRank = "Lieutenant";
+					text = "Zweite Kompanie, Jägerbataillon 1";
+					textShort = "2./ JgBtl 1";
+					description = "Second Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
+				};
+				class 3JgKmp 
+				{
+					side = "West";
+					size = "Company";
+					type = "Infantry";
+					commander = "Müller";
+					commanderRank = "Lieutenant";
+					text = "Dritte Kompanie, Jägerbataillon 1";
+					textShort = "3./ JgBtl 1";
+					description = "Third Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
+				};
+				class 4JgKmp 
+				{
+					side = "West";
+					size = "Company";
+					type = "Infantry";
+					commander = "Wagner";
+					commanderRank = "Lieutenant";
+					text = "Vierte Kompanie, Jägerbataillon 1";
+					textShort = "4./ JgBtl 1";
+					description = "Fourth Company of Jägerbataillon 1 is one of three Light Infantry companies in the battalion.";
+				};
+				class 5JgKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "MotorizedInfantry";
+					commander = "Neumann";
+					commanderRank = "Captain";
+					text = "Fünfte Kompanie, Jägerbataillon 1";
+					textShort = "5./ JgBtl 1";
+					description = "Fifth Company of Jägerbataillon 1 is the only company to have heavy infantry and motorized capabilities on a permanent basis.";
+					assets[] = {{"B_Truck_01_covered_F",4},{"B_MRAP_01_F",2},{"B_MRAP_01_hmg_F",2},{"B_Truck_01_transport_F",4}};
+				};
+			};
+			class PzGrenBtl212
+			{
+				side = "West";
+				size = "Battalion";
+				type = "HQ";
+				commander = "Stöver";
+				commanderRank = "Major";
+				text = "Panzergrenadierbataillon 212";
+				textShort = "PzGrenBtl 212";
+				description = "The Panzergrenadierbataillon 212 is a battalion specializing in motorized and mechanized infantry combat. PzGrenBtl 212 has primarily been deployed to Afghanistan. The battalion was the last unit of the Bundeswehr to sustain a combat casualty, as the IFV that Oberstabsgefreiter Alexej Kobelew was travelling in was hit by a 200kg IED, killing him instantly.";
+				class 1PzGrenKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "Support";
+					commander = "Koch";
+					commandeRank = "Lieutenant";
+					text = "Erste Kompanie, Panzergrenadierbataillon 212";
+					textShort = "1./ PzGrenBtl 212";
+					description = "First Company of PzGrenBtl 212 consists of support staff, and is responsible for the logistics of the battalion.";
+				};
+				class 2PzGrenKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "MechanizedInfantry";
+					commander = "Lange";
+					commandeRank = "Lieutenant";
+					text = "Zweite Kompanie, Panzergrenadierbataillon 212";
+					textShort = "2./ PzGrenBtl 212";
+					description = "Second Company is, together with third and fourth company, the backbone of the battalion. They supply the main force of IFVs, having 14 IFV Pumas at their disposal at all times.";
+					assets[] = {{"RHS_M2A3_BUSKIII",14}};
+				};
+				class 3PzGrenKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "MechanizedInfantry";
+					commander = "Schubert";
+					commandeRank = "Lieutenant";
+					text = "Dritte Kompanie, Panzergrenadierbataillon 212";
+					textShort = "3./ PzGrenBtl 212";
+					description = "Third company is, together with second and fourth company, the backbone of the battalion. They have a varying amount of IFVs at their disposal, oftentimes around five IFV Marders.";
+					assets[] = {{"RHS_M2A3",5}};
+				};
+				class 4PzGrenKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "MechanizedInfantry";
+					commander = "Baumann";
+					commandeRank = "Lieutenant";
+					text = "Vierte Kompanie, Panzergrenadierbataillon 212";
+					textShort = "4./ PzGrenBtl 212";
+					description = "Fourth company is, together with second and third company, the backbone of the battalion. They have a varying amount of IFVs at their disposal, oftentimes around five IFV Marders.";
+					assets[] = {{"RHS_M2A3",5}};
+				};
+				class 5PzGrenKmp
+				{
+					side = "West";
+					size = "Company";
+					type = "Service";
+					commander = "Fischer";
+					commanderRank = "Lieutenant";
+					text = "Fünfte Kompanie, Panzergrenadierbataillon 212";
+					textShort = "5./ PzGrenBtl 212";
+					description = "Fifth company is, together with first company, a support company. Whilst first company primarily handles logistics, fifth company also handles the training of individual platoons within the battalion.";
+				};
+			};
+		  };
+		};
+		class DSK
+		{
+			side = "West";
+			size = "Division";
+			type = "HQ";
+			commander = "Marlow";
+			commanderRank = "General";
+			text = "Division Schnelle Kräfte";
+			textShort = "DSK";
+			description = "Division Schnelle Kräfte (Rapid Forces Division) provides airborne capabilities to the Bundeswehr. It commands three combat brigades and special forces troops (such as the KSK) which have full air-mobile capabilities. The DSK has been involved in all overseas operations of the Bundeswehr to date.";
+			class TrspHubschrRgt10
+			{
+				side = "West";
+				size = "Regiment";
+				type = "Helicopter";
+				commander = "Rüther";
+				commanderRank = "Colonel";
+				text = "Transporthubschrauberregiment 10";
+				textShort = "TrspHubschrRgt 10";
+				description = "The 10th Air Transport Regiment is one of two air regiments of the DSK, the other being the 30th Air Transport Regiment. The Regiment primarily supports ground troops via troop or logistics transports, but also has other capabilities such as Forward Air MEDEVAC.";
+				assets[] = {{"rhsusf_CH53E_USMC",2},{"RHS_UH1Y_UNARMED",10}};
+			};
+			class TrspHubschrRgt30
+			{
+				side = "West";
+				size = "Regiment";
+				type = "Helicopter";
+				commander = "Göhringer";
+				commanderRank = "Colonel";
+				text = "Transporthubschrauberregiment 30";
+				textShort = "TrspHubschrRgt 30";
+				description = "The 30th Air Transport regiment is the second air regiment under the command of the DSK. They are primarily responsible for securing airspace during transport, MEDEVAC or other exercises. However, they are also capable of performing Search And Rescue (SAR) missions, as well as air refueling.";
+				assets[] = {{"rhsusf_CH53E_USMC",1},{"RHS_UH1Y_UNARMED",5}};
+			};
+			class KpfHubschrRgt36
+			{
+				side = "West";
+				size = "Regiment";
+				type = "Helicopter";
+				commander = "Bauersachs";
+				commanderRank = "Colonel";
+				text = "Kampfhubschrauberregiment 36";
+				textShort = "KpfHubschrRgt 36";
+				description = "The 36th Attack Helicopter Regiment is the regiment responsible for providing aerial anti-tank capabilities as well as close air support. The 'Kampfhubschrauber Tiger' is the main attack helicopter in use by the regiment. The regiment is also responsible for operating all military air bases during peacetime (does not include military police, which are provided seperately by the Feldjägers).";
+				assets[] = {{"RHS_MELB_MH6M",2},{"RHS_AH1Z_wd_CS",6}};
+			};
+			class KSK
+			{
+				side = "West";
+				size = "Brigade";
+				type = "Infantry";
+				commander = "Baehr";
+				commanderRank = "General";
+				text = "Kommando Spezialkräfte";
+				textShort = "KSK";
+				description = "The Kommando Spezialkräfte are the covert operations forces of the Bundeswehr, and as such are the German equivalent of the US Navy SEALs. Their work is, for the most part, classified. The brigade is known to have been involved in Operation Enduring Freedom since 2001. They were involved in the Battle of Tora Bora and Operation Anaconda, among others. Their current commander, Brigadegeneral Dag Baehr, is the first commander in the history of the KSK to also have been a commando before taking over as commander.";
+			};
+		};
+	};
+};

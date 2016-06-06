@@ -2,6 +2,7 @@
 	<img src="http://i.imgur.com/7nkLRBB.png">
 	<br /><br />
 	<img src="https://travis-ci.org/ARCOMM/ARCMF.svg?branch=master">
+	[![GitHub release](https://img.shields.io/github/release/CER10TY/ARCMF.svg?maxAge=2592000?style=plastic)](https://github.com/CER10TY/ARCMF/releases)
 </p>
 
 # ARCOMM Mission Framework

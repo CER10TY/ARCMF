@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=461;
+		nextID=467;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={79.360077,620.10223,-59.010643};
-		dir[]={0.013255977,-0.84266794,0.53829074};
-		up[]={0.020745261,0.53842723,0.84241688};
-		aside[]={0.9997077,-1.5978367e-007,-0.024618605};
+		pos[]={902.66455,704.38422,-213.53157};
+		dir[]={-0.011522979,-0.73177886,0.68146825};
+		up[]={-0.012372467,0.6815303,0.73168832};
+		aside[]={0.99987417,-8.4492967e-008,0.016907383};
 	};
 };
 binarizationWanted=0;
@@ -86,7 +86,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=77;
+		items=83;
 		class Item0
 		{
 			dataType="Group";
@@ -7997,7 +7997,7 @@ class Mission
 		class Item62
 		{
 			dataType="Marker";
-			position[]={649.33008,5,929.46729};
+			position[]={925.8938,5,1290.8438};
 			name="ger_flag";
 			type="flag_Germany";
 			a=4;
@@ -8009,7 +8009,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={649.38922,5,566.02612};
+				position[]={649.38898,5,566.026};
 			};
 			name="pzbrig21";
 			id=447;
@@ -8031,7 +8031,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21""";
 						};
 					};
 				};
@@ -8069,7 +8069,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv""";
 						};
 					};
 				};
@@ -8100,7 +8100,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={482.23322,5,354.40479};
+				position[]={482.233,5,354.405};
 			};
 			name="jgbtl1";
 			id=448;
@@ -8122,7 +8122,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1""";
 						};
 					};
 				};
@@ -8160,7 +8160,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21""";
 						};
 					};
 				};
@@ -8191,7 +8191,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={404.71924,5,236.1189};
+				position[]={404.71899,5,236.119};
 			};
 			name="jgkmp1";
 			id=449;
@@ -8213,7 +8213,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""1JgKmp""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""1JgKmp""";
 						};
 					};
 				};
@@ -8251,7 +8251,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1""";
 						};
 					};
 				};
@@ -8282,7 +8282,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={459.51727,5,236.61377};
+				position[]={459.517,5,236.614};
 			};
 			name="jgkmp2";
 			id=450;
@@ -8304,7 +8304,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""2JgKmp""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""2JgKmp""";
 						};
 					};
 				};
@@ -8342,7 +8342,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
 						};
 					};
 				};
@@ -8373,7 +8373,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={507.77118,5,235.71997};
+				position[]={507.771,5,235.72};
 			};
 			name="jgkmp3";
 			id=451;
@@ -8395,7 +8395,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""3JgKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""3JgKmp""";
 						};
 					};
 				};
@@ -8433,7 +8433,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
 						};
 					};
 				};
@@ -8464,7 +8464,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={555.84125,5,238.08179};
+				position[]={555.841,5,238.082};
 			};
 			name="jgkmp4";
 			id=452;
@@ -8486,7 +8486,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""4JgKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""4JgKmp""";
 						};
 					};
 				};
@@ -8524,7 +8524,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
 						};
 					};
 				};
@@ -8555,7 +8555,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={609.69122,5,236.06885};
+				position[]={609.69098,5,236.069};
 			};
 			name="jgkmp5";
 			id=453;
@@ -8577,7 +8577,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""5JgKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" >> ""5JgKmp""";
 						};
 					};
 				};
@@ -8615,7 +8615,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""JgBtl1"" ";
 						};
 					};
 				};
@@ -8646,7 +8646,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={650.06543,5,744.87744};
+				position[]={650.065,5,744.87701};
 			};
 			name="pzdiv1";
 			id=454;
@@ -8668,7 +8668,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigfile >> ""CfgORBAT"" >> ""1PzDiv""";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv""";
 						};
 					};
 				};
@@ -8706,7 +8706,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="";
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH""";
 						};
 					};
 				};
@@ -8737,7 +8737,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={807.30316,5,378.521};
+				position[]={807.30298,5,378.521};
 			};
 			name="pzgrenbtl212";
 			id=455;
@@ -8759,7 +8759,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
 						};
 					};
 				};
@@ -8797,7 +8797,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21""";
 						};
 					};
 				};
@@ -8828,7 +8828,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={766.14227,5,233.16992};
+				position[]={766.14203,5,233.17};
 			};
 			name="pzgrenkmp2";
 			id=456;
@@ -8850,7 +8850,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""2PzGrenKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""2PzGrenKmp""";
 						};
 					};
 				};
@@ -8888,7 +8888,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
 						};
 					};
 				};
@@ -8919,7 +8919,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={810.37823,5,236.0708};
+				position[]={810.37799,5,236.071};
 			};
 			name="pzgrenkmp3";
 			id=457;
@@ -8941,7 +8941,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""3PzGrenKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""3PzGrenKmp""";
 						};
 					};
 				};
@@ -8979,7 +8979,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionconfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
 						};
 					};
 				};
@@ -9010,7 +9010,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={726.98224,5,232.44482};
+				position[]={726.98199,5,232.44501};
 			};
 			name="pzgrenkmp1";
 			id=458;
@@ -9032,7 +9032,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""1PzGrenKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""1PzGrenKmp""";
 						};
 					};
 				};
@@ -9070,7 +9070,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
 						};
 					};
 				};
@@ -9101,7 +9101,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={856.78925,5,233.896};
+				position[]={856.789,5,233.896};
 			};
 			name="pzgrenkmp4";
 			id=459;
@@ -9123,7 +9123,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""4PzGrenKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""4PzGrenKmp""";
 						};
 					};
 				};
@@ -9161,7 +9161,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionconfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
 						};
 					};
 				};
@@ -9192,7 +9192,7 @@ class Mission
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={904.65118,5,233.896};
+				position[]={904.651,5,233.896};
 			};
 			name="pzgrenkmp5";
 			id=460;
@@ -9214,7 +9214,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionConfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""5PzGrenKmp""";
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212"" >> ""5PzGrenKmp""";
 						};
 					};
 				};
@@ -9252,7 +9252,553 @@ class Mission
 									"STRING"
 								};
 							};
-							value="missionconfigFile >> ""CfgORBAT"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+							value="missionconfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""1PzDiv"" >> ""PzBrig21"" >> ""PzGrenBtl212""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item77
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1151.937,5,750.89697};
+			};
+			name="dsk";
+			id=461;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item78
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1058.827,5,566.52197};
+			};
+			name="tsp10";
+			id=462;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK"" >> ""TrspHubschrRgt10""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item79
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1176.828,5,566.52197};
+			};
+			name="tsp30";
+			id=463;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK"" >> ""TrspHubschrRgt30""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item80
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1296.672,5,564.67798};
+			};
+			name="ksp36";
+			id=464;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK"" >> ""KpfHubschrRgt36""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item81
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1424.813,5,562.83398};
+			};
+			name="ksk";
+			id=465;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK"" >> ""KSK""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionconfigfile >> ""CfgORBAT"" >> ""KdoH"" >> ""DSK""";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ModuleStrategicMapORBAT_F_Tiers";
+					expression="_this setVariable ['Tiers',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=4;
+			};
+		};
+		class Item82
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={891.96698,5,1073.5551};
+			};
+			name="kdoh";
+			id=466;
+			type="ModuleStrategicMapORBAT_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ModuleStrategicMapORBAT_F_Path";
+					expression="_this setVariable ['Path',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="missionConfigFile >> ""CfgORBAT"" >> ""KdoH""";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ModuleStrategicMapORBAT_F_Tags";
+					expression="_this setVariable ['Tags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ModuleStrategicMapORBAT_F_Parent";
+					expression="_this setVariable ['Parent',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
 						};
 					};
 				};

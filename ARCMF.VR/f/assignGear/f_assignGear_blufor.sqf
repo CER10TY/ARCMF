@@ -296,7 +296,7 @@ comment "Add weapons";
 this addWeapon "hlc_rifle_G36KA1";
 this addPrimaryWeaponItem "HLC_Optic_G36dualoptic15x";
 this addWeapon "rhsusf_weap_m9";
-this addWeapon "tf47_at4_heat";
+this addWeapon "rhs_weap_M136";
 
 comment "Add items";
 this linkItem "ItemMap";
